@@ -8,7 +8,7 @@ minute = H * 60 + M
 todo = minute - 45
 
 if todo < 0:
-    todo = todo + 1400
+    todo = todo + 1440
 
 resulthour = todo // 60
 resultminute = todo % 60
